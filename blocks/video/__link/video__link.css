@@ -1,0 +1,16 @@
+.video__link {
+  position: relative;
+  display: inline-block;
+  padding: 30px;
+  width: 583px;
+  min-height: 323px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity .3s ease-in;
+}
+
+.video__link:hover {
+  opacity: .7;
+  transition: opacity .3s ease-in;
+}
