@@ -1,0 +1,170 @@
+@import url('blocks/header/header.css');
+@import url('blocks/header/__lang-container/header__lang-container.css');
+@import url('blocks/header/__logo/header__logo.css');
+@import url('blocks/header/__lang-container/header__lang-container.css');
+@import url('blocks/header/__lang/header__lang.css');
+@import url('blocks/header/__link/header__link.css');
+@import url('blocks/header/__link/_active/header__link_active.css');
+
+@import url('blocks/lead/lead.css');
+@import url('blocks/lead/__title/lead__title.css');
+@import url('blocks/lead/__subtitle/lead__subtitle.css');
+@import url('blocks/lead/__image-container/lead__image-container.css');
+@import url('blocks/lead/__image/lead__image.css');
+@import url('blocks/lead/__caption/lead__caption.css');
+
+@import url('blocks/intro/intro.css');
+@import url('blocks/intro/__title/intro__title.css');
+@import url('blocks/intro/__subtitle/intro__subtitle.css');
+@import url('blocks/intro/__content-row/intro__content-row.css');
+@import url('blocks/intro/__text/intro__text.css');
+@import url('blocks/intro/__meta/intro__meta.css');
+@import url('blocks/intro/__item/intro__item.css');
+@import url('blocks/intro/__facts/intro__facts.css');
+@import url('blocks/intro/__text-accent/intro__text-accent.css');
+
+@import url('blocks/photo-grid/photo-grid.css');
+@import url('blocks/photo-grid/__item/photo-grid__item.css');
+
+@import url('blocks/places/places.css');
+
+@import url('blocks/place/place.css');
+@import url('blocks/place/__title/place__title.css');
+@import url('blocks/place/__image/place__image.css');
+@import url('blocks/place/__paragraph/place__paragraph.css');
+@import url('blocks/place/__website/place__website.css');
+@import url('blocks/place/__url-heading/place__url-heading.css');
+@import url('blocks/place/__url/place__url.css');
+@import url('blocks/place/__text/place__text.css');
+
+@import url('blocks/content-title/content-title.css');
+@import url('blocks/content-title/_line-height_large/content-title_line-height_large.css');
+
+@import url('blocks/content-subtitle/content-subtitle.css');
+
+@import url('blocks/video/video.css');
+@import url('blocks/video/__container/video__container.css');
+@import url('blocks/video/__duration/video__duration.css');
+@import url('blocks/video/__icon/video__icon.css');
+@import url('blocks/video/_type/video__icon_type_play.css');
+@import url('blocks/video/__item/video__item.css');
+@import url('blocks/video/__poster/video__poster.css');
+@import url('blocks/video/__subtitle/video__subtitle.css');
+@import url('blocks/video/__title/video__title.css');
+@import url('blocks/video/__link/video__link.css');
+
+@import url('blocks/additional/additional.css');
+@import url('blocks/additional/__container/additional__container.css');
+@import url('blocks/additional/__heading/additional__heading.css');
+@import url('blocks/additional/__item-bg/additional__item-bg.css');
+@import url('blocks/additional/__item/additional__item.css');
+@import url('blocks/additional/__text/additional__text.css');
+
+@import url('blocks/comments/comments.css');
+@import url('blocks/comments/__container/comments__container.css');
+
+@import url('blocks/comment/comment.css');
+@import url('blocks/comment/__author/comment__author.css');
+@import url('blocks/comment/__image/comment__image.css');
+@import url('blocks/comment/__quote/comment__quote.css');
+@import url('blocks/comment/__container/comment__container.css');
+
+@import url('blocks/cover/cover.css');
+@import url('blocks/cover/__subtitle/cover__subtitle.css');
+@import url('blocks/cover/__title/cover__title.css');
+@import url('blocks/cover/__image/cover__image.css');
+@import url('blocks/cover/__link/cover__link.css');
+
+@import url('blocks/emblem/emblem.css');
+@import url('blocks/emblem/__city/emblem__city.css');
+@import url('blocks/emblem/__image/emblem__image.css');
+@import url('blocks/emblem/__item/emblem__item.css');
+@import url('blocks/emblem/__title/emblem__title.css');
+@import url('blocks/emblem/__container/emblem__container.css');
+
+@import url('blocks/barentsburg/barentsburg.css');
+@import url('blocks/barentsburg/__coord/barentsburg__coord.css');
+@import url('blocks/barentsburg/__link/barentsburg__link.css');
+@import url('blocks/barentsburg/__map/barentsburg__map.css');
+@import url('blocks/barentsburg/__text/barentsbur__text.css');
+@import url('blocks/barentsburg/__title/barentsburg__title.css');
+@import url('blocks/barentsburg/__url-heading/barentsburg__url-heading.css');
+@import url('blocks/barentsburg/__website/barentsburg__website.css');
+
+@import url('blocks/footer/footer.css');
+@import url('blocks/footer/__copyright/footer__copyright.css');
+@import url('blocks/footer/__link/footer__link.css');
+@import url('blocks/footer/__links/footer__links.css');
+@import url('blocks/footer/__item/footer__item.css');
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/Inter-Regular.woff2") format("woff2"),
+       url("./fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/Inter-Medium.woff2") format("woff2"),
+       url("./fonts/Inter-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./fonts/Inter-Bold.woff2") format("woff2"),
+       url("./fonts/Inter-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("./fonts/Inter-Black.woff2") format("woff2"),
+       url("./fonts/Inter-Black.woff") format("woff");
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+.page {
+  width: 1184px;
+  margin: 0 auto;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color: #2a2c2f;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.link {
+  opacity: 1;
+  transition: opacity .2s ease-in-out;
+}
+
+.link:hover {
+  opacity: .7;
+}
