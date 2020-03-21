@@ -1,0 +1,34 @@
+.cover__link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  min-height: 594px;
+  padding: 42px 20px;
+
+  color: #fff;
+  text-decoration: none;
+
+  background-image: url('../../../images/cover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cover__link::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.5;
+  transition: opacity .3s ease-out;
+}
+
+.cover__link:hover::after {
+  opacity: .7;
+  transition: opacity .3s ease-out;
+}
